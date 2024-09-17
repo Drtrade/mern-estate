@@ -14,6 +14,6 @@ const userSchema = new mongoose.Schema({
     }
 }, {timestamps:true}); //we use the last code to sort user inputs
 
-const USer = mongoose.model('User', userSchema)
+const User = mongoose.model('User', userSchema)
 
 export default User;
